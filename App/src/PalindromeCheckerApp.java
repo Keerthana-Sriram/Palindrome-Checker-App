@@ -15,10 +15,24 @@
         */
 import java.util.*;
 public class PalindromeCheckerApp {
+
     public static void main(String [] args){
-        System.out.println("Welcome to the Palindrome Checker Management System");
         System.out.println("Author: Keerthana");
-        System.out.println("Version: 1.0");
-        System.out.println("System initialized successfully");
+        System.out.println("Version: 3.0");
+        char[] charArray = "Hello";
+        int start = 0;
+        int end = str.length() - 1;
+        char[] charArray2 = charArray;
+        while (start < end) {
+            char temp = charArray2[start];
+            charArray2[start] = charArray2[end];
+            charArray2[end] = temp;
+            start++;
+            end--;
+        }
+        if (charArray2==charArray)
+            System.out.println(charArray+" is a palindrome.");
+        else
+            System.out.println(charArray+" is not a palindrome.");
     }
 }
