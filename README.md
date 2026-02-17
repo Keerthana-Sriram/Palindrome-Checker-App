@@ -1,4 +1,9 @@
 # Palindrome-Checker-App
+// This is the third use case
+// Uses string reverse
+// Temp variable used, then compared
+// Prints according to string
+// Hardcoded
 //This is the second use case for the palindrome app
 // It uses hard codong logic, where we check if two words are palindromes or not
 // The logic is as follows:
